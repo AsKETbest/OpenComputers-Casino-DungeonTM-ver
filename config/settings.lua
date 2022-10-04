@@ -2,7 +2,7 @@ local settings = {}
 
 settings.REPOSITORY = "https://raw.githubusercontent.com/AsKETbest/OpenComputers-Casino-DungeonTM-ver/master"
 settings.TITLE = "Приветствуем ваc у нас в казино"
-settings.ADMINS = { "AsketLife", "kaka88" }
+settings.ADMINS = { "AsketLife", "kaka8" }
 
 -- CHEST / PIM / ...
 settings.PAYMENT_METHOD = "PIM"
