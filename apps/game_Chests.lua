@@ -78,7 +78,7 @@ local function gameStart()
         drawChest(i)
         if jackpotChest == i then
             if math.random(1, 11) == 1 then
-                chests[i] = BET_VALUES[bet] * 10
+                chests[i] = BET_VALUES[bet] * 5
             else
                 chests[i] = 0
             end
