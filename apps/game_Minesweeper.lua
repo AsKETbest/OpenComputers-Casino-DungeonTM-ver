@@ -5,7 +5,7 @@ local term = require("term")
 local unicode = require("unicode")
 local casino = require("casino")
 
-local bomb_count = 5 -- 6 мин = 40% на победу, 5 мин 47% на победу
+local bomb_count = 6 -- 6 мин = 40% на победу, 5 мин 47% на победу
 local bets = { 1, 2, 3, 4, 5, 10, 16 }
 local symb = string.rep(unicode.char(0xE0BF), 2)
 local fields = {}
